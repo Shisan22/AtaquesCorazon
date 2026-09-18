@@ -32,7 +32,7 @@ st.header("Datos del Paciente")
 col1, col2 = st.columns(2)
 
 with col1:
-    age = st.slider('Edad (anos)', min_value=1, max_value=100, value=40, step=1)
+    age = st.slider('Edad (años)', min_value=1, max_value=100, value=40, step=1)
     hypertension = st.selectbox('¿Padece de Hipertension?', ['No', 'Yes'])
     heart_disease = st.selectbox('¿Tiene Enfermedad Cardiaca?', ['No', 'Yes'])
 
